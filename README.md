@@ -8,6 +8,7 @@ To facilitate the search for NSF awards, we provide a convenient access to the h
 
 The NSF awards data in the format of CSV file are obtained by [NSF website](https://www.nsf.gov/awardsearch/) via the function `Export All Results`. Each area only contains the latest 3000 awards.
 
+All the CSV files are under the [folder](./CSV_Files).
 
 ## Format 
 

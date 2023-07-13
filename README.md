@@ -19,6 +19,14 @@ The awards are presented in individual files, named by the award number.
 
 In conjunction with some utilities (such as neovim and fzf), one can easily search for the awards of interest.
 
+Using zsh, one can source `./myzsh.zsh` and then run either `prob` or `All` in terminal to query the awards.
+
+### Prerequisites:
+* [fzf](https://github.com/junegunn/fzf)
+* Python environment
+* [bat](https://github.com/sharkdp/bat)
+* [Silver search rg](https://github.com/ggreer/the_silver_searcher)
+
 
 ## License
 

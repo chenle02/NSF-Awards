@@ -19,7 +19,7 @@ The awards are presented in individual files, named by the award number.
 
 In conjunction with some utilities (such as neovim and fzf), one can easily search for the awards of interest.
 
-Using zsh, one can source `./myzsh.zsh` and then run either `prob` or `All` in terminal to query the awards.
+Using zsh, one can source [myzsh.zsh](myzsh.zsh) and then run command `prob` or `All` in terminal to query the awards.
 
 ### Prerequisites:
 * [fzf](https://github.com/junegunn/fzf)

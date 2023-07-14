@@ -18,7 +18,7 @@ The awards are presented in individual files, named by the award number.
 
 In conjunction with some utilities (such as neovim and fzf), one can easily search for the awards of interest. Here are a few examples:
 
-* Just run `[all sh](all.sh)` to search the awards.
+* Just run the bash script [all.sh](all.sh) to search the awards.
   * If you using zsh, one can source [myzsh.zsh](myzsh.zsh) and then run command `prob` or `All` in terminal to query the awards.
 
 * You may also use `nvim` to open all md files and search for the awards of interest.

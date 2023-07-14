@@ -38,6 +38,8 @@ In conjunction with some utilities (such as neovim and fzf), one can easily sear
 
 * Using nvim or vim
 
+[![asciicast](https://asciinema.org/a/596766.svg)](https://asciinema.org/a/596766)
+
 ## License
 
 [CC-BY-SA 4.0](LICENSE.txt)

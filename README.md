@@ -32,7 +32,7 @@ In conjunction with some utilities (such as neovim and fzf), one can easily sear
 
 ### Demo
 
-* Using [all sh](all.sh)
+* Using the bash script [all.sh](all.sh)
 
 [![asciicast](https://asciinema.org/a/596763.svg)](https://asciinema.org/a/596763)
 

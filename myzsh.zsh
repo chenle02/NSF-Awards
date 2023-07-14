@@ -5,8 +5,8 @@ function prob(){
   # xsv select 1-15,25 Probability_1744.csv|fzf --preview-window=right:60% --preview "echo {} | fold -w 80" > output.csv ; ./filter.py
   # xsv select 1-15,25 Probability_1744.csv|fzf --preview-window=right:60% --preview "bat --wrap=character {}" > output.csv ; ./filter.py
   #
-  xsv select 1-15,25 ./CSV_Files/Probability_1744.csv | fzf --preview 'echo {} |./format3.py {} | bat --color=always --wrap=character --line-range :500'
-  # xsv select 1-15,25 ./CSV_Files/Probability_1744.csv | fzf --preview 'echo {} | ./format-Markdown.py | bat --color=always --wrap=character --line-range :500'
+  # xsv select 1-15,25 ./CSV_Files/Probability_1744.csv | fzf --preview 'echo {} |./format3.py {} | bat --color=always --wrap=character --line-range :500'
+  xsv select 1-15,25 ./CSV_Files/Probability_1744.csv | fzf --preview 'echo {} |./format3.py {} | bat ' | ./format3.py | bat
 }
 alias all=./all.sh
 

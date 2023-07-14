@@ -10,26 +10,33 @@ The NSF awards data in the format of CSV file are obtained from [NSF website](ht
 
 All the CSV files are under the [folder](./CSV_Files).
 
-## Format 
+## Format
 
 The awards are presented in individual files, named by the award number.
 
 ## Possible usage
 
-In conjunction with some utilities (such as neovim and fzf), one can easily search for the awards of interest.
+In conjunction with some utilities (such as neovim and fzf), one can easily search for the awards of interest. Here are a few examples:
 
-Using zsh, one can source [myzsh.zsh](myzsh.zsh) and then run command `prob` or `All` in terminal to query the awards.
+* Just run `[all sh](all.sh)` to search the awards.
+  * If you using zsh, one can source [myzsh.zsh](myzsh.zsh) and then run command `prob` or `All` in terminal to query the awards.
+
+* You may also use `nvim` to open all md files and search for the awards of interest.
 
 ### Prerequisites for the script:
 * [fzf](https://github.com/junegunn/fzf)
 * Python environment
 * [bat](https://github.com/sharkdp/bat)
 * [Silver search rg](https://github.com/ggreer/the_silver_searcher)
-* [xsv](https://github.com/BurntSushi/xsv) 
+* [xsv](https://github.com/BurntSushi/xsv)
 
 ### Demo
 
-* TBD
+* Using `[all sh](all.sh)`
+
+[![asciicast](https://asciinema.org/a/596763.svg)](https://asciinema.org/a/596763)
+
+* Using nvim or vim
 
 ## License
 

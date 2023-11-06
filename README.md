@@ -2,13 +2,17 @@
 
 ## Motivation
 
-To facilitate the search for NSF awards, we provide a convenient access to the historical NSF awards for DMS.
+To facilitate the search for NSF awards, we provide a convenient access to the historical NSF awards primarily for Division of Mathematical Sciences (DMS).
 
 ## Data source
 
-The NSF awards data in the format of CSV file are obtained from [NSF website](https://www.nsf.gov/awardsearch/) via the functionality `Export All Results`. Each subarea only contains the latest 3000 awards.
+1. DMS awards:
+   The NSF DMS awards data in the format of CSV file are obtained from [Mathematical Sciences (DMS) Awards](https://www.nsf.gov/mps/dms/awards.jsp) via the functionality `Export All Results`. Each subarea only contains the latest 3000 awards.
 
-All the CSV files are under the [folder](./CSV_Files).
+    All the CSV files are under the [folder](./CSV_Files).
+
+2. General NSF awards:
+   The complete list of NSF awards, listed by year, are available at [Download Awards](https://www.nsf.gov/awardsearch/download.jsp). The data has been downloaded and stored in the folder [By-Years](./By-Years).
 
 ## Format
 
@@ -39,6 +43,14 @@ In conjunction with some utilities (such as neovim and fzf), one can easily sear
 * Using nvim or vim
 
 [![asciicast](https://asciinema.org/a/596766.svg)](https://asciinema.org/a/596766)
+
+## Copyright
+
+* [As per NSF guideline](https://www.nsf.gov/awardsearch/help.jsp#copyright) 
+```
+Award data posted on the NSF web site, including award abstract text, is in the public domain and not subject to copyright. 
+
+```
 
 ## License
 

@@ -17,7 +17,8 @@ fi
 file="$(fd csv | fzf )"
 
 # xsv select 1-15,25 "$file" | fzf --preview 'echo {} |./format3.py {} | bat --color=always --wrap=character --line-range :500' > output.csv ; ./filter.py
-xsv select 1-15,25 "$file" | fzf --preview 'echo {} |./format3.py {} | bat --color=always --wrap=character --line-range :500' | ./format3.py | bat
+xsv select 1-15,25 "$file" | fzf --preview 'python format3.py {}' | python format3.py | bat
+
 
 read -p "Have you done? (y/n) " -n 1 -r
 echo    # move to a new line

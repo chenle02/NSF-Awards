@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10206801.svg)](https://doi.org/10.5281/zenodo.10206801)
+
 # NSF-Awards -- Division of Mathematical Sciences (DMS)
 
 ## Motivation
@@ -44,14 +46,17 @@ In conjunction with some utilities (such as neovim and fzf), one can easily sear
 
 [![asciicast](https://asciinema.org/a/596766.svg)](https://asciinema.org/a/596766)
 
-## Copyright
+## Copyright regarding the NSF awards
 
-* [As per NSF guideline](https://www.nsf.gov/awardsearch/help.jsp#copyright) 
-```
-Award data posted on the NSF web site, including award abstract text, is in the public domain and not subject to copyright. 
+[As per NSF guideline](https://www.nsf.gov/awardsearch/help.jsp#copyright) 
 
 ```
 
+Award data posted on the NSF web site, including award abstract text, is in the
+public domain and not subject to copyright. 
+
+```
+ 
 ## License
 
 [CC-BY-SA 4.0](LICENSE.txt)

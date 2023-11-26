@@ -10,6 +10,11 @@ function prob(){
 }
 alias all=./all.sh
 
-alias description="gh repo edit --description 'Awards from National Science Foundation (NSF) with a Focus on Division of Mathematical Sciences (DMS)' --homepage 'https://doi.org/10.5281/zenodo.10206802'"
+alias description="gh repo edit \
+  --description 'Awards from National Science Foundation (NSF) with a Focus on Division of Mathematical Sciences (DMS)' \
+  --homepage 'https://doi.org/10.5281/zenodo.10206802' \
+  --add-topic 'research' \
+  --add-topic 'mathematics' \
+  "
 
  

@@ -65,7 +65,7 @@ you wish to mention this work, please feel free to use the following BibTeX
 entry. Your support in recognizing the effort put into compiling and maintaining
 this repository is much appreciated.
 
-   * Le Chen (2023) “”. GitHub & Zenodo. https://doi.org/10.5281/zenodo.10206020
+   * Le Chen (2023) “Awards from National Science Foundation (NSF) with a Focus on Division of Mathematical Sciences (DMS)”. GitHub & Zenodo. https://doi.org/10.5281/zenodo.10206801
 
 ```
 @misc{chen:23:awards,

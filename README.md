@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10206801.svg)](https://doi.org/10.5281/zenodo.10206801)
 
-# NSF-Awards -- Division of Mathematical Sciences (DMS)
+# Awards from National Science Foundation (NSF) with a Focus on Division of Mathematical Sciences (DMS)
 
 ## Motivation
 
@@ -48,15 +48,38 @@ In conjunction with some utilities (such as neovim and fzf), one can easily sear
 
 ## Copyright regarding the NSF awards
 
-[As per NSF guideline](https://www.nsf.gov/awardsearch/help.jsp#copyright) 
+[As per NSF guideline](https://www.nsf.gov/awardsearch/help.jsp#copyright)
 
 ```
 
 Award data posted on the NSF web site, including award abstract text, is in the
-public domain and not subject to copyright. 
+public domain and not subject to copyright.
 
 ```
- 
+
+## Reference
+
+We hope that the resources have been supportive in your teaching or studying. We
+are sincerely grateful for any form of acknowledgment you might extend. Should
+you wish to mention this work, please feel free to use the following BibTeX
+entry. Your support in recognizing the effort put into compiling and maintaining
+this repository is much appreciated.
+
+   * Le Chen (2023) “”. GitHub & Zenodo. https://doi.org/10.5281/zenodo.10206020
+
+```
+@misc{chen:23:awards,
+  author        = {Le Chen},
+  title         = {Awards from {National Science Foundation (NSF)} with a Focus on Division of Mathematical Sciences {(DMS)}},
+  month         = {nov},
+  year          = {2023},
+  publisher     = {GitHub \& Zenodo},
+  journal       = {GitHub repository},
+  doi           = {10.5281/zenodo.10206801},
+  url           = {https://doi.org/10.5281/zenodo.10206801}
+}
+```
+
 ## License
 
 [CC-BY-SA 4.0](LICENSE.txt)
